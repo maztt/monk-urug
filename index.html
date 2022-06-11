@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monge Urug</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container-wrapper">
+      <img src="./assets/images/monk.png" alt="" />
+      <div class="container-index">
+        <h1>E depois de uma longa viagem...</h1>
+        <h1>Você finalmente encontra o Monge Urug!</h1>
+        <p>
+          Em recompensa pela sua incrível jornada, ele te dá o direito à uma
+          pílula do conhecimento!
+        </p>
+      </div>
+      <div class="container-buttom">
+        <button
+          id="button"
+          onclick="generateChoice(), getResponse(), generateReaction()"
+        >
+          Monge Urug, o que você tem para me dizer?
+        </button>
+      </div>
+      <div class="response__waiting">
+        <div class="response__loading"></div>
+        <div class="response__loading"></div>
+        <div class="response__loading"></div>
+      </div>
+    </div>
+    <div class="container-response">
+      <h3 id="response"></h3>
+    </div>
+    <script src="./assets/js/scripts.js"></script>
+  </body>
+</html>

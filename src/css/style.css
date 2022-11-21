@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Catamaran', sans-serif;
+}
+
+html {
+  background-image: url('../images/monastery.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.container__wrapper {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin-bottom: 20px;
+
+  border-radius: 30px;
+  box-shadow: 0 8px 32px 0 rgba(31, 111, 135, 0.37);
+  backdrop-filter: blur(80px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+div.container__header img.header__image {
+  width: 350px;
+  margin-bottom: 1rem;
+}
+
+div.container__header p.header__subtitle {
+  font-weight: bold;
+  margin-bottom: 3rem;  
+}
+
+div.container__button > button {
+  border: none;
+  border-radius: .5rem;
+  background-color: white;
+  padding: 5px 30px;
+  opacity: .9;
+  font-size: 1.2rem;
+}
+
+
+div.container__button > button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+div.container__response {
+  margin-top: 2.5rem;
+}
+
+div.container__response.clicked {
+  transition: 2s;
+  animation: fadein 1s;
+}
+
+div.response__waiting {
+  display: flex;
+  visibility: hidden;
+  height: 4rem;
+  width: 8rem;
+  justify-content: space-evenly;
+  align-items: center;
+  transform: translateY(0);
+}
+
+div.response__loading {
+  margin-bottom: 190px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #949494;
+  transform: scale(1);
+}
+
+div.response__phrase {
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(31, 111, 135, 0.37);
+}
+
+div.response__phrase h3#response {
+  margin: auto;
+  max-width: 900px;
+  line-height: 1.5rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 2px black;
+}
+
+/* RESPONSE-LOADING ANIMATION */
+
+
+div.response__loading:nth-child(1) {
+  animation: pulse 1.5s ease-in-out infinite;
+  animation-delay: 0s;
+}
+
+div.response__loading:nth-child(2) {
+  animation: pulse 1.5s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+
+div.response__loading:nth-child(3) {
+  animation: pulse 1.5s ease-in-out infinite;
+  animation-delay: 0.4s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes fadein {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}

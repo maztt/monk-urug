@@ -50,7 +50,7 @@ const phrases = [
   'O primeiro passo para o futuro que você deseja pode ser o mesmo que você se recusa a dar agora.',
   'Que mentira você está contando para si mesmo?',
   'Busque ser bom o bastante, sendo 1% melhor todos os dias e faça o seu melhor enquanto ainda não tiver ferramentas para fazer melhor ainda.',
-  'Procure ter a mentalidade de um desenvolvedor para automatizar tudo. Procure a mentalidade de um designer para pensar na experiência do cliente. A mentalidade de marketing para saber criar histórias para conectar organizações e pessoas. A mentalidade para organizar dados para tomar decisões, e não deixar que os dados tomem decisões por você.',
+  'No âmbito profissional, procure ter a mentalidade de um desenvolvedor para automatizar tudo. Procure a mentalidade de um designer para pensar na experiência das pessoas. A mentalidade de marketing para saber criar histórias para conectar organizações e humanos. A mentalidade para organizar dados para tomar decisões, e não deixar que os dados tomem decisões por você.',
   'Ao invés de explicar tecnicamente, conte uma história.',
   'Toda boa fundação é feita de tijolo em tijolo, então não espere compreender de imediato a grandeza do que está sendo construindo.',
   'Não importa onde você começa, mas sim onde termina.',
@@ -95,6 +95,7 @@ function generateReaction() {
     button.style.fontWeight = 'bolder'
     button.style.width = '100%'
     button.style.cursor = 'default'
+    button.style.boxShadow = 'none'
     button.innerHTML = urugReactions[randomReaction]
 
 

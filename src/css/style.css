@@ -36,11 +36,21 @@ div.container__wrapper {
 div.container__header img.header__image {
   width: 350px;
   margin-bottom: 1rem;
+      text-shadow: 1px 1px 10px white;
+}
+
+div.container__header h1.header__title {
+  text-shadow: 1px 1px 10px white;
 }
 
 div.container__header p.header__subtitle {
   font-weight: bold;
   margin-bottom: 3rem;  
+  text-shadow: 1px 1px 10px white;
+}
+
+div.container__button {
+  height: 400px;
 }
 
 div.container__button > button {
@@ -49,7 +59,9 @@ div.container__button > button {
   background-color: white;
   padding: 5px 30px;
   opacity: .9;
-  font-size: 1.2rem;
+  font-size: 1.2rem;    
+  text-shadow: 1px 1px 10px white;
+  box-shadow: 5px 5px 5px black;
 }
 
 
@@ -60,11 +72,6 @@ div.container__button > button:hover {
 
 div.container__response {
   margin-top: 2.5rem;
-}
-
-div.container__response.clicked {
-  transition: 2s;
-  animation: fadein 1s;
 }
 
 div.response__waiting {
@@ -97,7 +104,7 @@ div.response__phrase h3#response {
   line-height: 1.5rem;
   text-align: center;
   color: white;
-  text-shadow: 1px 2px black;
+  text-shadow: 1px 1px 5px black;
 }
 
 /* RESPONSE-LOADING ANIMATION */
@@ -130,11 +137,3 @@ div.response__loading:nth-child(3) {
   }
 }
 
-@keyframes fadein {
-  0% {
-    visibility: hidden;
-  }
-  100% {
-    visibility: visible;
-  }
-}

@@ -7,26 +7,38 @@
 In case you need an inspirational quote for the day, week or a momentum.
 </p>
 
-## :telescope: - Preview:
+# [:telescope:] Preview:
 
-![20230109_161506](https://user-images.githubusercontent.com/92126792/211389878-8caa1134-d1d9-4a45-8595-e4a14ef3e9e6.gif)
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/92126792/211389878-8caa1134-d1d9-4a45-8595-e4a14ef3e9e6.gif" alt="Project GIF Preview" />
+</div>
+
+<br>
 
 <p align="center">
 <a href="https://maztt.github.io/monk-urug/" target="_blank">
-Experience the project!
+Give it a try!
 </a>
 </p>
 
-## :bulb: - Why?
+<br>
+<br>
+
+# [:bulb:] Why?
 
 <p align="justify">
-This project connects with my personal need of having mantras and inspiring phrases to lead me throughout this chaotic world. I believe they've helped me a couple of times to be more aware, to chase down my goals and to focus on what matters, so why not sharing it with more people who might be in the same situation as me?
+This project resonates deeply with my personal quest for guidance and inspiration in a world that can often feel overwhelming. Through my own experiences, I have found that mantras and uplifting phrases can serve as powerful tools for cultivating awareness, pursuing goals, and prioritizing what truly matters. It occurred to me that if these practices have been so beneficial to me, then perhaps they could help others as well. That's why I feel compelled to share this project with those who may be facing similar challenges and seeking greater purpose and clarity in their lives.
 </p>
 
-## :wrench: - Tech Stack:
+<br>
+<br>
 
-![HTML5](https://img.shields.io/badge/html5-%23323330.svg?style=for-the-badge&logo=html5&logoColor=%23E34F26)
-![CSS3](https://img.shields.io/badge/css3-%23323330.svg?style=for-the-badge&logo=css3&logoColor=%231572B6)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+# [:wrench:] Tech & Skills
+
+<ul style="list-style-type: none;">
+<li> HTML5
+<li> CSS3
+<li> Vanilla JavaScript
+</ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
